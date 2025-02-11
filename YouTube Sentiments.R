@@ -6,6 +6,8 @@ library(ggplot2)
 library(wordcloud2)
 library(reshape2)
 
+Dataset: https://data.world/uci/youtube-spam-collection
+
 #Read in data
 dat <- read.csv("Spam Classification.csv")
 
