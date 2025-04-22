@@ -2,6 +2,7 @@
 library(dplyr)
 library(tidytext)
 library(tm)
+library(stringr)
 library(ggplot2)
 library(wordcloud2)
 library(reshape2)
