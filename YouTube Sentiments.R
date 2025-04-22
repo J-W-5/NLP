@@ -49,7 +49,7 @@ spam_clean <- str_split(spam_clean, " ")
 spam_clean <- unlist(spam_clean)
 spam_clean <- tibble(spam_clean)
 spam_clean <- spam_clean %>%
-  select(word = 1, everything()) %>%
+  select(word = 1) %>%
   anti_join(stop_words) %>%
   left_join(nrc)
 
